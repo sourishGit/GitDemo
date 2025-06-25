@@ -41,6 +41,8 @@ public class CheckOutPage extends Utils {
 		waitforElementToAppear(itemDropList);
 		selectChoicedCountry.click();
 		waitforElementToDisappear(selectChoicedCountry);
+		waitforElementToDisappear(selectChoicedCountry);
+		waitforElementToDisappear(selectChoicedCountry);
 	}
 	
 	public ConfirmationPage placeOrder() 

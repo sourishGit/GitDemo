@@ -31,6 +31,10 @@ public class CartPage extends Utils {
 	
 	@FindBy(css=".totalRow button")
 	WebElement checkOutButton;
+	
+	//selenium
+	//java
+	//testng
 
 		
 		
