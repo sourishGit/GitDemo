@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="sourishBakshiFrameworkAuto.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="ErrorValidation(failed)">
+    <classes>
+      <class name="sourishBakshiFrameworkAuto.tests.ErrorMessageValidationTest">
+        <methods>
+          <include name="errorValidation"/>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- sourishBakshiFrameworkAuto.tests.ErrorMessageValidationTest -->
+    </classes>
+  </test> <!-- ErrorValidation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
