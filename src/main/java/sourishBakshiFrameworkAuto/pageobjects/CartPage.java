@@ -43,6 +43,9 @@ public class CartPage extends Utils {
 	public CheckOutPage clickCheckoutButton()
 	{
 		checkOutButton.click();
+		checkOutButton.click();
+		checkOutButton.click();
+		checkOutButton.click();
 		return new CheckOutPage(driver);
 	}
 
