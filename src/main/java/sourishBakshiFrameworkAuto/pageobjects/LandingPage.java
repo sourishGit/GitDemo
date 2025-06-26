@@ -46,6 +46,24 @@ public class LandingPage extends Utils {
 		
 	}
 	
+	public ProductCatalogue loginApplication1(String userName, String password)
+	{
+		userEmail.sendKeys(userName);
+		passwordElement.sendKeys(password);
+		jsClick(loginButton);
+		return new ProductCatalogue(driver);
+		
+	}
+	
+	public ProductCatalogue loginApplication2(String userName, String password)
+	{
+		userEmail.sendKeys(userName);
+		passwordElement.sendKeys(password);
+		jsClick(loginButton);
+		return new ProductCatalogue(driver);
+		
+	}
+	
 	public void navigateToUrl(String urlString)
 	{
 		

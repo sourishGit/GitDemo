@@ -28,6 +28,13 @@ public class OrdersPage  {
 		
 	}
 	
+	public boolean getOrderItemNameMatchValue1(String productName)
+	{
+		boolean match = listofOrder.stream().anyMatch(s->s.getText().equalsIgnoreCase(productName));
+		return match;
+		
+	}
+	
 	
 	
 
