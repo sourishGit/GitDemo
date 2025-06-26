@@ -63,6 +63,24 @@ public class ProductCatalogue extends Utils {
 		return new CommonPage(driver);
 	}
 	
+	public CommonPage addProductToCart1(String productName)
+	{
+		WebElement prod = getProductByName(productName);
+		prod.findElement(addToCart).click();
+		waitforElementToAppear(toastMessage);
+		waitforElementToDisappear(animation);
+		return new CommonPage(driver);
+	}
+	
+	public CommonPage addProductToCart2(String productName)
+	{
+		WebElement prod = getProductByName(productName);
+		prod.findElement(addToCart).click();
+		waitforElementToAppear(toastMessage);
+		waitforElementToDisappear(animation);
+		return new CommonPage(driver);
+	}
+	
 	
 
 }
