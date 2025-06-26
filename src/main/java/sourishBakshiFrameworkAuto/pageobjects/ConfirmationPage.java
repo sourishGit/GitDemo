@@ -35,6 +35,11 @@ public class ConfirmationPage extends Utils {
 		return confirmationMessage.getText();
 	}
 	
+	public String confirmationText1()
+	{
+		return confirmationMessage.getText();
+	}
+	
 	
 	
 
